@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_smooth_scroll">
+
+    <fragment
+        android:id="@+id/nav_smooth_scroll"
+        android:name="com.sk.layoutanimation.ui.smoothscroll.SmoothScrollFragment"
+        android:label="@string/menu_smooth_scroll"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/nav_slide_up"
+        android:name="com.sk.layoutanimation.ui.slideup.SlideUpLayoutFragment"
+        android:label="@string/menu_slide_up"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/nav_slide_down"
+        android:name="com.sk.layoutanimation.ui.slidedown.SlideDownLayoutFragment"
+        android:label="@string/menu_slide_down"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/nav_fade_slide_right"
+        android:name="com.sk.layoutanimation.ui.fade_slideright.FadeSlideRightFragment"
+        android:label="@string/menu_fade_slide_right"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.sk.layoutanimation.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.sk.layoutanimation.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+
+</navigation>
